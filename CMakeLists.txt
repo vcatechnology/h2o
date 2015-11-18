@@ -135,6 +135,7 @@ INCLUDE_DIRECTORIES(
     deps/libyrmcds
     deps/klib
     deps/neverbleed
+    deps/openfilecache
     deps/picohttpparser
     deps/picotest
     deps/yaml/include
@@ -158,6 +159,7 @@ SET(LIB_SOURCE_FILES
     deps/libyrmcds/send.c
     deps/libyrmcds/socket.c
     deps/libyrmcds/strerror.c
+    deps/openfilecache/openfilecache.c
     deps/picohttpparser/picohttpparser.c
 
     lib/common/file.c
